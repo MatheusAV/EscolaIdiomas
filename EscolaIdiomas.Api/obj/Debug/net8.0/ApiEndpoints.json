@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "EscolaIdiomas.Api.Controllers.AlunosController",
+    "Method": "ObterTodosAlunos",
+    "RelativePath": "api/Alunos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscolaIdiomas.Api.Controllers.AlunosController",
+    "Method": "AtualizarAluno",
+    "RelativePath": "api/Alunos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "alunoDto",
+        "Type": "EscolaIdiomas.Domain.Dtos.AlunoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscolaIdiomas.Api.Controllers.AlunosController",
+    "Method": "DeletarAluno",
+    "RelativePath": "api/Alunos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscolaIdiomas.Api.Controllers.AlunosController",
+    "Method": "ObterAlunoPorCpf",
+    "RelativePath": "api/Alunos/cpf/{cpf}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscolaIdiomas.Api.Controllers.MatriculasController",
+    "Method": "MatricularAluno",
+    "RelativePath": "api/Matriculas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matriculaDto",
+        "Type": "EscolaIdiomas.Domain.Dtos.MatriculaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscolaIdiomas.Api.Controllers.TurmasController",
+    "Method": "CadastrarTurma",
+    "RelativePath": "api/Turmas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turmaDto",
+        "Type": "EscolaIdiomas.Domain.Dtos.TurmaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscolaIdiomas.Api.Controllers.TurmasController",
+    "Method": "ObterTurma",
+    "RelativePath": "api/Turmas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
