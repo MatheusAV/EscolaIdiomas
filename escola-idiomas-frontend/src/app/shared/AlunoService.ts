@@ -35,4 +35,9 @@ export class AlunoService {
   getByCpf(cpf: string): Observable<any> {
     return this.http.get<any>(`/Alunos/cpf/${cpf}`);
   }
+
+  getById(id: number): Observable<any> {
+    return this.http.get<any>(`/Alunos/${id}`);
+  }
+
 }

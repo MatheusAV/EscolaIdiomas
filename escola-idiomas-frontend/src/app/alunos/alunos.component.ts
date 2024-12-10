@@ -18,8 +18,11 @@ export class AlunosComponent implements OnInit {
   cpfBusca: string = '';
   successMessage = '';
   errorMessage = '';
+  isSearching = false;
 
   private modalRef!: NgbModalRef;
+modalContent: any;
+modalEdicao: any;
   constructor(public alunoService: AlunoService, public modalService: NgbModal) {}
 
   ngOnInit(): void {
@@ -36,22 +39,39 @@ export class AlunosComponent implements OnInit {
     });
   }
 
-  /**
+   /**
    * Busca um aluno pelo CPF
    */
-  buscarPorCpf(cpf: string, callback?: (aluno: any) => void) {
-    if (!cpf) return;
+   /**
+   * Busca um aluno pelo CPF
+   */
+  buscarPorCpf() {
+    if (!this.cpfBusca) {
+      this.loadAlunos(); // Se o CPF estiver vazio, lista todos os alunos
+      return;
+    }
 
-    this.alunoService.getByCpf(cpf).subscribe({
+    this.isSearching = true; // Entra no modo de busca
+    this.alunoService.getByCpf(this.cpfBusca).subscribe({
       next: (data) => {
-        if (callback) callback(data);
+        this.alunos = [data]; // Mostra apenas o aluno encontrado
         this.errorMessage = '';
       },
       error: () => {
         this.errorMessage = 'Aluno não encontrado com o CPF informado.';
+        this.alunos = []; // Limpa a lista para indicar que não há resultados
       }
     });
   }
+
+  /**
+   * Limpa o campo de busca e lista todos os alunos
+   */
+  limparBusca() {
+    this.cpfBusca = ''; // Limpa o campo
+    this.loadAlunos(); // Carrega todos os alunos
+  }
+
 
   /**
    * Abre o modal para edição de aluno
@@ -90,23 +110,47 @@ export class AlunosComponent implements OnInit {
   /**
    * Exclui um aluno
    */
-  deletarAluno(id: number) {
-    if (confirm('Deseja realmente excluir este aluno?')) {
-      this.alunoService.delete(id).subscribe({
-        next: () => {
-          this.successMessage = 'Aluno excluído com sucesso!';
-          this.loadAlunos();
-        },
-        error: () => (this.errorMessage = 'Erro ao excluir aluno.')
-      });
-    }
+  deletarAlunoConfirmado(id: number) {
+    this.alunoService.delete(id).subscribe({
+      next: () => {
+        this.successMessage = 'Aluno excluído com sucesso!';
+        this.errorMessage = '';
+        this.modalService.dismissAll(); // Fecha o modal
+        this.loadAlunos(); // Recarrega a lista de alunos
+      },
+      error: (error) => {
+        if (error.error?.Error) {
+          this.errorMessage = error.error.Error; // Mostra o erro retornado pela API
+        } else {
+          this.errorMessage = 'Erro ao excluir aluno. Tente novamente.';
+        }
+        this.successMessage = '';
+      }
+    });
   }
+
+
+
+  abrirModalExclusao(content: any, aluno: any) {
+    this.alunoSelecionado = aluno; // Define o aluno selecionado
+    this.modalService.open(content, { size: 'md', backdrop: 'static', centered: true });
+  }
+
 
   abrirModal(content: any, aluno: any) {
-    this.alunoSelecionado = aluno; // Define o aluno selecionado
-    this.modalService.open(content, { size: 'lg' });
-  }
+    this.alunoSelecionado = aluno;
 
+    // Supondo que as turmas sejam carregadas dinamicamente
+    this.alunoService.getById(aluno.id).subscribe({
+      next: (data) => {
+        this.alunoSelecionado.turmas = data.turmas; // Carregar turmas do aluno
+        this.modalService.open(content, { size: 'lg', backdrop: 'static', centered: true });
+      },
+      error: () => {
+        this.errorMessage = 'Erro ao carregar as turmas do aluno.';
+      }
+    });
+  }
 
   /**
    * Fecha o modal

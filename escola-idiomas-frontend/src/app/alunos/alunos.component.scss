@@ -1,44 +1,151 @@
-/* Botões de ação */
+.container {
+  max-width: 900px;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.table {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #212529;
+  color: white;
+}
+
+.input-group-text {
+  border: none;
+}
+
+.input-group .form-control {
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
 .btn-action {
-  width: 36px; /* Tamanho fixo para botões */
+  width: 36px;
   height: 36px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%; /* Botões arredondados */
-  border: none;
-  font-size: 18px; /* Tamanho do ícone */
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: all 0.2s;
 }
 
-/* Botão de ação com ícone */
-.btn-action span.material-icons {
-  font-size: 20px;
-  color: #ffffff;
+.btn-action:hover {
+  transform: scale(1.1);
 }
 
-/* Cores dos botões */
 .btn-info {
   background-color: #17a2b8;
+  border: none;
 }
 
 .btn-warning {
   background-color: #ffc107;
+  border: none;
 }
 
 .btn-danger {
   background-color: #dc3545;
+  border: none;
 }
 
-/* Efeito ao passar o mouse */
-.btn-action:hover {
-  opacity: 0.9;
-  transform: scale(1.1); /* Aumenta o botão levemente */
+.btn-secondary {
+  background-color: #6c757d;
 }
 
-/* Efeito ativo */
-.btn-action:active {
-  transform: scale(1);
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.alert {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  overflow: hidden;
+}
+
+.modal-header {
+  background-color: #343a40;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.modal-footer {
+  background-color: #f8f9fa;
+  border-top: none;
+}
+
+.btn-close {
+  color: white;
+  font-size: 1.2rem;
   opacity: 0.8;
+}
+
+.btn-close:hover {
+  opacity: 1;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.table-responsive {
+  margin-top: 20px;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  font-size: 1rem;
+}
+
+.btn-action {
+  padding: 0.375rem 0.75rem;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
 }

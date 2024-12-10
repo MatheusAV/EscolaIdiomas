@@ -6,9 +6,9 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule], // Importa módulos necessários
   template: `
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Escola de Idiomas</a>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Escola de Idiomas</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -23,13 +23,19 @@ import { RouterModule } from '@angular/router';
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/alunos" routerLinkActive="active">Alunos</a>
+          <a
+            class="nav-link fw-semibold text-dark"
+            routerLink="/alunos"
+            routerLinkActive="active"
+          >
+            Alunos
+          </a>
         </li>
       </ul>
       <div class="d-flex gap-2">
         <!-- Botão Gerenciar Matrículas -->
         <button
-          class="btn btn-primary"
+          class="btn btn-action btn-primary rounded-pill"
           routerLink="/matriculas"
           routerLinkActive="active"
         >
@@ -38,7 +44,7 @@ import { RouterModule } from '@angular/router';
 
         <!-- Botão Gerenciar Turmas -->
         <button
-          class="btn btn-primary"
+          class="btn btn-action btn-primary rounded-pill"
           routerLink="/turmas"
           routerLinkActive="active"
         >
@@ -50,6 +56,7 @@ import { RouterModule } from '@angular/router';
 </nav>
 
 <router-outlet></router-outlet>
+
 
   `,
 })
