@@ -1,0 +1,117 @@
+<div class="container mt-4">
+  <h1>Gerenciar Alunos</h1>
+
+  <!-- Mensagens de Sucesso e Erro -->
+  <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+  <!-- Campo de Busca -->
+  <div class="input-group mb-3">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Buscar por CPF"
+      [(ngModel)]="cpfBusca"
+    />
+    <button class="btn btn-primary" (click)="buscarPorCpf(cpfBusca)">Buscar</button>
+    <button class="btn btn-secondary" (click)="loadAlunos()">Limpar</button>
+  </div>
+
+  <!-- Tabela de Alunos -->
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>CPF</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let aluno of alunos">
+        <td>{{ aluno.id }}</td>
+        <td>{{ aluno.nome }}</td>
+        <td>{{ aluno.cpf }}</td>
+        <td>
+          <!-- Botão "Ver Turmas" -->
+          <button
+            class="btn btn-action btn-info"
+            (click)="abrirModal(modalContent, aluno)"
+            matTooltip="Ver Turmas"
+          >
+            <span class="material-icons">groups</span>
+          </button>
+
+          <!-- Botão "Editar" -->
+          <button
+            class="btn btn-action btn-warning"
+            (click)="abrirModalEdicao(modalEdicao, aluno)"
+            matTooltip="Editar"
+          >
+            <span class="material-icons">edit</span>
+          </button>
+
+          <!-- Botão "Excluir" -->
+          <button
+            class="btn btn-action btn-danger"
+            (click)="deletarAluno(aluno.id)"
+            matTooltip="Excluir"
+          >
+            <span class="material-icons">delete</span>
+          </button>
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
+
+<!-- Modal para Exibir Turmas -->
+<ng-template #modalContent>
+  <div class="modal-header">
+    <h5 class="modal-title">Turmas do Aluno: {{ alunoSelecionado?.nome }}</h5>
+    <button type="button" class="btn-close" (click)="modalService.dismissAll()"></button>
+  </div>
+  <div class="modal-body">
+    <p><strong>CPF:</strong> {{ alunoSelecionado?.cpf }}</p>
+    <ul>
+      <li *ngFor="let turma of alunoSelecionado?.turmas">{{ turma.nome }}</li>
+    </ul>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-secondary" (click)="modalService.dismissAll()">Fechar</button>
+  </div>
+</ng-template>
+
+<!-- Modal para Edição de Aluno -->
+<ng-template #modalEdicao>
+  <div class="modal-header">
+    <h5 class="modal-title">Editar Aluno</h5>
+    <button type="button" class="btn-close" (click)="modalService.dismissAll()"></button>
+  </div>
+  <div class="modal-body">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome</label>
+      <input
+        id="nome"
+        type="text"
+        class="form-control"
+        [(ngModel)]="alunoSelecionado.nome"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="cpf" class="form-label">CPF</label>
+      <input
+        id="cpf"
+        type="text"
+        class="form-control"
+        [(ngModel)]="alunoSelecionado.cpf"
+        disabled
+      />
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-success" (click)="atualizarAluno()">Salvar</button>
+    <button class="btn btn-secondary" (click)="modalService.dismissAll()">Cancelar</button>
+  </div>
+</ng-template>

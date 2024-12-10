@@ -1,0 +1,47 @@
+<div class="container mt-4">
+  <h1>Gerenciar Turmas</h1>
+
+  <!-- Mensagens de Sucesso e Erro -->
+  <div *ngIf="successMessage" class="alert alert-success">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+
+  <!-- Botão para Mostrar/Esconder o Formulário -->
+  <button class="btn btn-primary mb-3" (click)="showForm = !showForm">
+    {{ showForm ? 'Cancelar' : 'Nova Turma' }}
+  </button>
+
+  <!-- Formulário de Criação de Turma -->
+  <form *ngIf="showForm" (ngSubmit)="createTurma()">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome da Turma</label>
+      <input
+        id="nome"
+        class="form-control"
+        [(ngModel)]="turma.nome"
+        name="nome"
+        required
+      />
+    </div>
+    <button class="btn btn-success" type="submit">Salvar</button>
+  </form>
+
+  <!-- Tabela de Turmas -->
+  <table class="table table-bordered mt-3">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let turma of turmas">
+        <td>{{ turma.id }}</td>
+        <td>{{ turma.nome }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,44 @@
+/* Botões de ação */
+.btn-action {
+  width: 36px; /* Tamanho fixo para botões */
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Botões arredondados */
+  border: none;
+  font-size: 18px; /* Tamanho do ícone */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Botão de ação com ícone */
+.btn-action span.material-icons {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* Cores dos botões */
+.btn-info {
+  background-color: #17a2b8;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+/* Efeito ao passar o mouse */
+.btn-action:hover {
+  opacity: 0.9;
+  transform: scale(1.1); /* Aumenta o botão levemente */
+}
+
+/* Efeito ativo */
+.btn-action:active {
+  transform: scale(1);
+  opacity: 0.8;
+}

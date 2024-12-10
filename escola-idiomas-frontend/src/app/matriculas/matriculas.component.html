@@ -1,0 +1,48 @@
+<div class="container mt-4">
+  <h1>Gerenciar Matrículas</h1>
+
+  <!-- Mensagens de Sucesso e Erro -->
+  <div *ngIf="successMessage" class="alert alert-success">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+
+  <!-- Formulário de Matrículas -->
+  <form (ngSubmit)="createMatricula()">
+    <div class="mb-3">
+      <label for="aluno" class="form-label">Selecione o Aluno</label>
+      <select
+        id="aluno"
+        class="form-select"
+        [(ngModel)]="matricula.alunoId"
+        name="alunoId"
+        required
+      >
+        <option [value]="0" disabled>Selecione um aluno</option>
+        <option *ngFor="let aluno of alunos" [value]="aluno.id">
+          {{ aluno.nome }}
+        </option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="turma" class="form-label">Selecione a Turma</label>
+      <select
+        id="turma"
+        class="form-select"
+        [(ngModel)]="matricula.turmaId"
+        name="turmaId"
+        required
+      >
+        <option [value]="0" disabled>Selecione uma turma</option>
+        <option *ngFor="let turma of turmas" [value]="turma.id">
+          {{ turma.nome }}
+        </option>
+      </select>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Salvar Matrícula</button>
+  </form>
+</div>
