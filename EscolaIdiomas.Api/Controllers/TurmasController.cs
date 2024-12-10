@@ -2,6 +2,7 @@ using EscolaIdiomas.Application.Interfaces;
 using EscolaIdiomas.Domain.Dtos;
 using EscolaIdiomas.Domain.Exceptions;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace EscolaIdiomas.Api.Controllers
 {
@@ -17,6 +18,7 @@ namespace EscolaIdiomas.Api.Controllers
         }
 
         [HttpPost]
+        [SwaggerOperation(Summary = "Cadastra uma nova turma.")]
         public async Task<IActionResult> CadastrarTurma([FromBody] TurmaDto turmaDto)
         {
             try
@@ -31,6 +33,7 @@ namespace EscolaIdiomas.Api.Controllers
         }
 
         [HttpGet("{id}")]
+        [SwaggerOperation(Summary = "Obtém uma turma específica com os alunos vinculados.")]
         public async Task<IActionResult> ObterTurma(int id)
         {
             var turma = await _service.ObterTurmaComAlunosAsync(id);
@@ -47,6 +50,21 @@ namespace EscolaIdiomas.Api.Controllers
             };
 
             return Ok(turmaDto);
+        }
+
+        [HttpGet]
+        [SwaggerOperation(Summary = "Lista todas as turmas.")]
+        public async Task<IActionResult> ListarTurmas()
+        {
+            var turmas = await _service.ObterTodasTurmasAsync();
+
+            var turmaDtos = turmas.Select(t => new TurmaDto
+            {
+                Id = t.Id,
+                Nome = t.Nome
+            }).ToList();
+
+            return Ok(turmaDtos);
         }
     }
 }

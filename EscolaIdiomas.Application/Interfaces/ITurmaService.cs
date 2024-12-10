@@ -6,6 +6,7 @@ namespace EscolaIdiomas.Application.Interfaces
     {
         Task CadastrarTurmaAsync(string nome);
         Task ExcluirTurmaAsync(int turmaId);
-        Task<Turma> ObterTurmaComAlunosAsync(int id);        
+        Task<Turma> ObterTurmaComAlunosAsync(int id);
+        Task<List<Turma>> ObterTodasTurmasAsync();
     }
 }

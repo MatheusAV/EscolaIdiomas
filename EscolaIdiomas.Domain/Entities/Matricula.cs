@@ -8,6 +8,7 @@
         public Aluno Aluno { get; private set; }
         public Turma Turma { get; private set; }
 
+        
         public static Matricula Criar(int alunoId, int turmaId)
         {
             return new Matricula
@@ -16,6 +17,11 @@
                 TurmaId = turmaId
             };
         }
+        
+        public void Atualizar(int alunoId, int turmaId)
+        {
+            AlunoId = alunoId;
+            TurmaId = turmaId;
+        }
     }
-
 }

@@ -1,4 +1,5 @@
-﻿using EscolaIdiomas.Domain.Entities;
+﻿using AutoMapper;
+using EscolaIdiomas.Domain.Entities;
 using EscolaIdiomas.Domain.Interfaces;
 using Moq;
 
@@ -8,11 +9,12 @@ namespace EscolaIdiomas.Tests.Domain
     {
         private readonly AlunoService _service;
         private readonly Mock<IAlunoRepository> _repositoryMock;
+        private readonly IMapper _mapper;
 
         public AlunoServiceTests()
         {
             _repositoryMock = new Mock<IAlunoRepository>();
-            _service = new AlunoService(_repositoryMock.Object);
+            _service = new AlunoService(_repositoryMock.Object, _mapper);
         }
         
         [Fact]

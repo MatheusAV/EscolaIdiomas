@@ -29,6 +29,31 @@ namespace EscolaIdiomas.Infrastructure.Repositories
         {
             return await _context.Matriculas.AnyAsync(m => m.AlunoId == alunoId && m.TurmaId == turmaId);
         }
+
+
+        public async Task<Matricula> GetByIdAsync(int id)
+        {
+            return await _context.Matriculas
+                .Include(m => m.Aluno)
+                .Include(m => m.Turma)
+                .FirstOrDefaultAsync(m => m.Id == id);
+        }
+
+        public async Task UpdateAsync(Matricula matricula)
+        {
+            _context.Matriculas.Update(matricula);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var matricula = await GetByIdAsync(id);
+            if (matricula != null)
+            {
+                _context.Matriculas.Remove(matricula);
+                await _context.SaveChangesAsync();
+            }
+        }
     }
 }
 

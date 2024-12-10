@@ -32,5 +32,28 @@ namespace EscolaIdiomas.Application.Services
 
             await _repository.AddAsync(matricula);
         }
+
+
+
+        public async Task AtualizarMatriculaAsync(int matriculaId, int novoAlunoId, int novaTurmaId)
+        {
+            var matricula = await _repository.GetByIdAsync(matriculaId);
+            if (matricula == null)
+                throw new DomainException("Matrícula não encontrada.");
+
+            // Atualiza a matrícula utilizando o método da entidade
+            matricula.Atualizar(novoAlunoId, novaTurmaId);
+
+            await _repository.UpdateAsync(matricula);
+        }
+
+        public async Task ExcluirMatriculaAsync(int matriculaId)
+        {
+            var matricula = await _repository.GetByIdAsync(matriculaId);
+            if (matricula == null)
+                throw new DomainException("Matrícula não encontrada.");
+
+            await _repository.DeleteAsync(matriculaId);
+        }
     }
 }

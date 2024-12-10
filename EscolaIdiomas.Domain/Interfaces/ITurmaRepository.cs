@@ -8,5 +8,6 @@ namespace EscolaIdiomas.Domain.Interfaces
         Task AddAsync(Turma turma);
         Task DeleteAsync(Turma turma);
         Task<Turma> GetByIdWithMatriculasAsync(int id);
+        Task<List<Turma>> GetAllAsync();
     }
 }

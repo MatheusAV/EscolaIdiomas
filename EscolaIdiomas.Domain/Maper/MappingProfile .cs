@@ -10,7 +10,8 @@ namespace EscolaIdiomas.Domain.Maper
         {
             // Mapeamento de Aluno para AlunoDto
             CreateMap<Aluno, AlunoDto>()
-                .ForMember(dest => dest.Turmas, opt => opt.MapFrom(src => src.Matriculas.Select(m => m.Turma).ToList()));                     
+                .ForMember(dest => dest.Turmas, opt => opt.MapFrom(src => src.Matriculas.Select(m => m.Turma).ToList()));
+         
 
             // Mapeamento de Turma para TurmaDto
             CreateMap<Turma, TurmaDto>();

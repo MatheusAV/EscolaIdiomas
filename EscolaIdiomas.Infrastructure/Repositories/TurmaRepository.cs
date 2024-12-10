@@ -41,5 +41,10 @@ namespace EscolaIdiomas.Infrastructure.Repositories
                     .ThenInclude(m => m.Aluno)
                 .FirstOrDefaultAsync(t => t.Id == id);
         }
+
+        public async Task<List<Turma>> GetAllAsync()
+        {
+            return await _context.Turmas.ToListAsync();
+        }
     }
 }
