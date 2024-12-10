@@ -19,8 +19,12 @@ public class AlunoRepository : IAlunoRepository
 
     public async Task<Aluno> GetByIdAsync(int id)
     {
-        return await _context.Alunos.FindAsync(id);
+        return await _context.Alunos
+            .Include(a => a.Matriculas)
+            .ThenInclude(m => m.Turma)
+            .FirstOrDefaultAsync(a => a.Id == id);
     }
+
 
     public async Task<Aluno> GetByIdWithMatriculasAsync(int id)
     {
@@ -47,6 +51,7 @@ public class AlunoRepository : IAlunoRepository
         _context.Alunos.Remove(aluno);
         await _context.SaveChangesAsync();
     }
+
 
     public async Task<IEnumerable<Aluno>> GetAllAsync()
     {

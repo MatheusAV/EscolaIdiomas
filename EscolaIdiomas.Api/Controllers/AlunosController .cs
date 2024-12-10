@@ -70,6 +70,22 @@ namespace EscolaIdiomas.Api.Controllers
             }
         }
 
+        [HttpGet("{id}")]
+        [SwaggerOperation(Summary = "Busca um aluno pelo ID")]
+        public async Task<IActionResult> ObterAlunoPorId(int id)
+        {
+            try
+            {
+                var aluno = await _service.ObterAlunoPorIdAsync(id);
+                return Ok(aluno);
+            }
+            catch (DomainException ex)
+            {
+                return NotFound(new { Error = ex.Message });
+            }
+        }
+
+
 
     }
 }

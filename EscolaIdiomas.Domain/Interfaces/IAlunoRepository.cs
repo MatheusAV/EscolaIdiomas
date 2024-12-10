@@ -12,5 +12,6 @@ namespace EscolaIdiomas.Domain.Interfaces
         Task DeleteAsync(Aluno aluno);
         Task<IEnumerable<Aluno>> GetAllAsync();
         Task<Aluno> GetByCpfAsync(string cpf);
+
     }
 }

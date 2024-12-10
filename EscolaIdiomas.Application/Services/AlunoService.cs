@@ -3,14 +3,16 @@ using EscolaIdiomas.Domain.Dtos;
 using EscolaIdiomas.Domain.Entities;
 using EscolaIdiomas.Domain.Exceptions;
 using EscolaIdiomas.Domain.Interfaces;
+using AutoMapper;
 
 public class AlunoService : IAlunoService
 {
     private readonly IAlunoRepository _repository;
-
-    public AlunoService(IAlunoRepository repository)
+    private readonly IMapper _mapper;
+    public AlunoService(IAlunoRepository repository, IMapper mapper)
     {
         _repository = repository;
+        _mapper = mapper;
     }
 
     public async Task CadastrarAlunoAsync(string nome, string cpf)
@@ -49,6 +51,16 @@ public class AlunoService : IAlunoService
         aluno.AtualizarCpf(alunoDto.Cpf);
 
         await _repository.UpdateAsync(aluno);
+    }
+
+    public async Task<AlunoDto> ObterAlunoPorIdAsync(int id)
+    {
+        var aluno = await _repository.GetByIdAsync(id);
+
+        if (aluno == null)
+            throw new DomainException("Aluno não encontrado.");
+
+        return _mapper.Map<AlunoDto>(aluno);
     }
 
 

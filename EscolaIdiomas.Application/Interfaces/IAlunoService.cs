@@ -12,6 +12,7 @@ namespace EscolaIdiomas.Application.Interfaces
         Task DeletarAlunoAsync(int id);
         Task<IEnumerable<AlunoListDto>> ObterTodosAsync();        
         Task<AlunoListDto> ObterAlunoPorCpfAsync(string cpf);
+        Task<AlunoDto> ObterAlunoPorIdAsync(int id);
     }
 
 

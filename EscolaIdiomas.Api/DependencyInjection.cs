@@ -1,6 +1,7 @@
 ﻿using EscolaIdiomas.Application.Interfaces;
 using EscolaIdiomas.Application.Services;
 using EscolaIdiomas.Domain.Interfaces;
+using EscolaIdiomas.Domain.Maper;
 using EscolaIdiomas.Infrastructure.Repositories;
 
 namespace API
@@ -22,7 +23,8 @@ namespace API
             services.AddScoped<IMatriculaRepository, MatriculaRepository>();
             services.AddScoped<IAlunoService, AlunoService>();
             services.AddScoped<ITurmaService, TurmaService>();
-            services.AddScoped<IMatriculaService, MatriculaService>();            
+            services.AddScoped<IMatriculaService, MatriculaService>();
+            services.AddAutoMapper(typeof(MappingProfile));
 
         }
     }
