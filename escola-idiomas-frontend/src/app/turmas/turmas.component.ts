@@ -11,8 +11,8 @@ import { CommonModule } from '@angular/common';
   imports:[FormsModule, CommonModule]
 })
 export class TurmasComponent implements OnInit {
-  turmas: any[] = [];
-  turma = { nome: '' };
+  turmas: any[] = []; // Lista de turmas
+  turma = { nome: '' }; // Modelo para criar novas turmas
   successMessage = '';
   errorMessage = '';
   showForm = false;
@@ -27,9 +27,15 @@ export class TurmasComponent implements OnInit {
    * Carrega todas as turmas
    */
   loadTurmas() {
-    this.turmaService.getAll().subscribe((data) => {
-      this.turmas = data;
-    });
+    this.turmaService.getAll().subscribe(
+      (data) => {
+        this.turmas = data;
+      },
+      (error) => {
+        this.errorMessage = 'Erro ao carregar turmas.';
+        console.error(error);
+      }
+    );
   }
 
   /**
@@ -42,12 +48,12 @@ export class TurmasComponent implements OnInit {
         this.errorMessage = '';
         this.turma = { nome: '' };
         this.showForm = false;
-        this.loadTurmas();
+        this.loadTurmas(); // Recarrega a lista após criação
       },
       error: () => {
         this.errorMessage = 'Erro ao criar turma. Tente novamente.';
         this.successMessage = '';
-      }
+      },
     });
   }
 }

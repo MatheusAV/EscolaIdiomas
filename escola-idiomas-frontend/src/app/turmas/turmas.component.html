@@ -1,47 +1,55 @@
 <div class="container mt-4">
-  <h1>Gerenciar Turmas</h1>
+  <div class="card shadow-lg p-4">
+    <h1 class="text-center mb-4">Gerenciar Turmas</h1>
 
-  <!-- Mensagens de Sucesso e Erro -->
-  <div *ngIf="successMessage" class="alert alert-success">
-    {{ successMessage }}
-  </div>
-  <div *ngIf="errorMessage" class="alert alert-danger">
-    {{ errorMessage }}
-  </div>
+    <!-- Mensagens de Sucesso e Erro -->
+    <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+    <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
 
-  <!-- Botão para Mostrar/Esconder o Formulário -->
-  <button class="btn btn-primary mb-3" (click)="showForm = !showForm">
-    {{ showForm ? 'Cancelar' : 'Nova Turma' }}
-  </button>
-
-  <!-- Formulário de Criação de Turma -->
-  <form *ngIf="showForm" (ngSubmit)="createTurma()">
-    <div class="mb-3">
-      <label for="nome" class="form-label">Nome da Turma</label>
-      <input
-        id="nome"
-        class="form-control"
-        [(ngModel)]="turma.nome"
-        name="nome"
-        required
-      />
+    <!-- Botão para Mostrar/Esconder o Formulário -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <button class="btn btn-primary rounded-pill" (click)="showForm = !showForm">
+        {{ showForm ? 'Cancelar' : 'Nova Turma' }}
+      </button>
     </div>
-    <button class="btn btn-success" type="submit">Salvar</button>
-  </form>
 
-  <!-- Tabela de Turmas -->
-  <table class="table table-bordered mt-3">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Nome</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let turma of turmas">
-        <td>{{ turma.id }}</td>
-        <td>{{ turma.nome }}</td>
-      </tr>
-    </tbody>
-  </table>
+    <!-- Formulário de Criação de Turma -->
+    <form *ngIf="showForm" (ngSubmit)="createTurma()">
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome da Turma</label>
+        <input
+          id="nome"
+          type="text"
+          class="form-control"
+          [(ngModel)]="turma.nome"
+          name="nome"
+          required
+        />
+      </div>
+      <div class="d-flex justify-content-end">
+        <button class="btn btn-success rounded-pill" type="submit">Salvar</button>
+      </div>
+    </form>
+
+    <!-- Tabela de Turmas -->
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let turma of turmas">
+            <td>{{ turma.id }}</td>
+            <td>{{ turma.nome }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
+
+<!-- Modal para Edição de Turma -->
+

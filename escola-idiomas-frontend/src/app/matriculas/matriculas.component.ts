@@ -31,17 +31,15 @@ export class MatriculasComponent implements OnInit {
   }
 
   loadAlunos() {
-    this.alunoService.getAll().subscribe((data) => {
-      this.alunos = data;
-    });
+    this.alunoService.getAll().subscribe((data) => (this.alunos = data));
   }
 
   loadTurmas() {
-    this.turmaService.getAll().subscribe((data) => {
-      this.turmas = data;
-    });
-  }
+    this.turmaService.getAll().subscribe((data) => (this.turmas = data));}
 
+    /**
+   * Cria uma nova matrícula
+   */
   createMatricula() {
     this.matriculaService.create(this.matricula).subscribe({
       next: () => {
@@ -52,7 +50,9 @@ export class MatriculasComponent implements OnInit {
       error: (err) => {
         this.errorMessage = 'Erro ao criar matrícula. Tente novamente.';
         this.successMessage = '';
-      }
+      },
     });
   }
+
+
 }

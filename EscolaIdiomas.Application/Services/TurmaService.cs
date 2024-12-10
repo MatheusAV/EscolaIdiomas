@@ -42,5 +42,10 @@ namespace EscolaIdiomas.Application.Services
         {
             return await _repository.GetByIdWithMatriculasAsync(id);
         }
+
+        public async Task<List<Turma>> ObterTodasTurmasAsync()
+        {
+            return await _repository.GetAllAsync();
+        }
     }
 }
