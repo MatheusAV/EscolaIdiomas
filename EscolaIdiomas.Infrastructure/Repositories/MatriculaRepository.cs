@@ -54,6 +54,15 @@ namespace EscolaIdiomas.Infrastructure.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<IEnumerable<Matricula>> GetByAlunoIdAsync(int alunoId)
+        {
+            return await _context.Matriculas
+                .Include(m => m.Turma) 
+                .Where(m => m.AlunoId == alunoId)
+                .ToListAsync();
+        }
+
     }
 }
 

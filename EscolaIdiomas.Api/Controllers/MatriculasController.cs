@@ -1,4 +1,5 @@
 using EscolaIdiomas.Application.Interfaces;
+using EscolaIdiomas.Application.Services;
 using EscolaIdiomas.Domain.Dtos;
 using EscolaIdiomas.Domain.Exceptions;
 using Microsoft.AspNetCore.Mvc;
@@ -46,19 +47,55 @@ namespace EscolaIdiomas.Api.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
-        [SwaggerOperation(Summary = "Exclui uma matrícula existente.")]
-        public async Task<IActionResult> ExcluirMatricula(int id)
+        //[HttpDelete("{id}")]
+        //[SwaggerOperation(Summary = "Exclui uma matrícula existente.")]
+        //public async Task<IActionResult> ExcluirMatricula(int id)
+        //{
+        //    try
+        //    {
+        //        await _service.ExcluirMatriculaAsync(id);
+        //        return Ok(new { Message = "Matrícula excluída com sucesso!" });
+        //    }
+        //    catch (DomainException ex)
+        //    {
+        //        return BadRequest(new { Error = ex.Message });
+        //    }
+        //}
+        
+        [HttpGet("Aluno/{cpf}")]
+        [SwaggerOperation(Summary = "Lista todas as matrículas de um aluno com suas turmas pelo CPF")]
+        public async Task<IActionResult> GetMatriculasByAlunoCpf(string cpf)
         {
             try
             {
-                await _service.ExcluirMatriculaAsync(id);
-                return Ok(new { Message = "Matrícula excluída com sucesso!" });
+                var matriculas = await _service.GetMatriculasByAlunoCpfAsync(cpf);
+                if (matriculas == null || !matriculas.Any())
+                {
+                    return Ok(new { Message = "Nenhuma matrícula encontrada para o CPF informado." });
+                }
+
+                return Ok(matriculas);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Error = ex.Message });
+            }
+        }
+
+        [HttpDelete("{id}")]
+        [SwaggerOperation(Summary = "Exclui uma matrícula existente associada ao aluno.")]
+        public async Task<IActionResult> DeleteMatricula(int id)
+        {
+            try
+            {
+                await _service.DeleteMatriculaAsync(id);
+                return Ok(new { Message = "Matrícula excluída com sucesso. O aluno foi desassociado da turma." });
             }
             catch (DomainException ex)
             {
                 return BadRequest(new { Error = ex.Message });
             }
         }
+
     }
 }

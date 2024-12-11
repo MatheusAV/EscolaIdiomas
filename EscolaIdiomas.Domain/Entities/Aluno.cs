@@ -8,6 +8,7 @@ namespace EscolaIdiomas.Domain.Entities
         public string Nome { get; private set; }
         public string Cpf { get; private set; }
         public ICollection<Matricula> Matriculas { get; private set; }
+        //public bool Ativo { get; set; } = true;
 
         public Aluno(string nome, string cpf)
         {

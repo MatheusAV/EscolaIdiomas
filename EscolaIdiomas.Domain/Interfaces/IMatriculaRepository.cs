@@ -10,5 +10,6 @@ namespace EscolaIdiomas.Domain.Interfaces
         Task<Matricula> GetByIdAsync(int id);
         Task UpdateAsync(Matricula matricula);
         Task DeleteAsync(int id);
+        Task<IEnumerable<Matricula>> GetByAlunoIdAsync(int alunoId);
     }
 }

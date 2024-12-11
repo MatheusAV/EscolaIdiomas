@@ -1,4 +1,5 @@
 ﻿using EscolaIdiomas.Application.Interfaces;
+using EscolaIdiomas.Domain.Dtos;
 using EscolaIdiomas.Domain.Entities;
 using EscolaIdiomas.Domain.Exceptions;
 using EscolaIdiomas.Domain.Interfaces;
@@ -9,11 +10,13 @@ namespace EscolaIdiomas.Application.Services
     {
         private readonly IMatriculaRepository _repository;
         private readonly ITurmaRepository _turmaRepository;
+        private readonly IAlunoRepository _alunoRepository;
 
-        public MatriculaService(IMatriculaRepository repository, ITurmaRepository turmaRepository)
+        public MatriculaService(IMatriculaRepository repository, ITurmaRepository turmaRepository, IAlunoRepository alunoRepository)
         {
             _repository = repository;
             _turmaRepository = turmaRepository;
+            _alunoRepository = alunoRepository;
         }
 
         public async Task MatricularAlunoAsync(int alunoId, int turmaId)
@@ -55,5 +58,52 @@ namespace EscolaIdiomas.Application.Services
 
             await _repository.DeleteAsync(matriculaId);
         }
+
+        public async Task<IEnumerable<MatriculaDto>> GetMatriculasByAlunoCpfAsync(string cpf)
+        {
+
+            var aluno = await _alunoRepository.GetByCpfAsync(cpf);
+            if (aluno == null)
+                throw new DomainException("Aluno não encontrado com o CPF informado.");
+
+
+            var matriculas = await _repository.GetByAlunoIdAsync(aluno.Id);
+
+
+            return matriculas.Select(m => new MatriculaDto
+            {
+                MatriculaId = m.Id,
+                AlunoId = aluno.Id,
+                AlunoNome = aluno.Nome,
+                TurmaId = m.TurmaId,
+                TurmaNome = m.Turma?.Nome
+            });
+        }
+
+
+        public async Task DeleteMatriculaAsync(int matriculaId)
+        {
+            
+            var matricula = await _repository.GetByIdAsync(matriculaId);
+            if (matricula == null)
+                throw new DomainException("Matrícula não encontrada.");
+
+            
+            await _repository.DeleteAsync(matriculaId);
+            
+            var outrasMatriculas = await _repository.GetByAlunoIdAsync(matricula.AlunoId);
+            if (!outrasMatriculas.Any())
+            {                
+                var aluno = await _alunoRepository.GetByIdAsync(matricula.AlunoId);
+                if (aluno != null)
+                {
+                    //aluno.Ativo = false;
+                    await _alunoRepository.UpdateAsync(aluno);
+                }
+            }
+        }
+
+
     }
 }
+
