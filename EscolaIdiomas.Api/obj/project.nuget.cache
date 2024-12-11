@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sMt35PKk8jpPGkkUkxCz2vM/RAylTJtlyIff/egVG+qBkfAbSePTD1BhCzDegH33RUGU6lbvjlEx8sTjiEhRZg==",
+  "dgSpecHash": "+g6OWk+F/cDG3p4a7UVe89Tnr3molGzc67z3q/oX9rkaFrK/F/QA5iyBA/qbsMTbG+tj9IKhpauJCGruIOPEEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

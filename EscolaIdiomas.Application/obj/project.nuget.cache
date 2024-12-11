@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qZMzMeIyytq2LyGpEnRHqwIcbKcL0HZlPW6UozW1JO8W9mk9sXX6TVKeTBCn+fLRqADp5rgSA9gu0PCkZo9vWw==",
+  "dgSpecHash": "5f07DNamla7CpwUktRRr4G1DX/7GAOzOEdj2eNEwYg2rar160YbPGEzhYZzSWBYyq6W87rnwB1Jdn835Lz1new==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

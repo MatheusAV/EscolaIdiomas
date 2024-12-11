@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "cxJl7561PD1Kyrhmxa54Yzd/NLTlQUwTWbSW6nKiSCz97IYvtnl376WqmWTIV2ju95BrAZmcMbswgOC0DRI64A==",
+  "dgSpecHash": "d5z7jSUhbRWHfKH01r/WuLzua6BbkDMx5Dz/WIV/U8geSHL4W2ZMxD9aHqvFRW2Kqn1QC8hwSgzaabV81VMARw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pSOie7YH//PiysDkbN5BtEKcTLtL/PWMYS7N/WUvGvVvL4gFA5suOivP+uflPcLLB3LCDhLw+QLm+rQ2RxWwxA==",
+  "dgSpecHash": "wwbaEhlW09rZZXeIJOPDwltygmc+NX9HaYBu2NYvkz40XY574bfpgDD2KpNaD03rAmVNA6XnXXXPHx1KXZ4Wlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Tests\\EscolaIdiomas.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

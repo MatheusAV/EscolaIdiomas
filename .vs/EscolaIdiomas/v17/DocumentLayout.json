@@ -3,44 +3,132 @@
   "WorkspaceRootPath": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18E26EF8-187E-4597-8225-3175D5EAE796}|EscolaIdiomas.Tests\\EscolaIdiomas.Tests.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.tests\\domain\\matriculaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E26EF8-187E-4597-8225-3175D5EAE796}|EscolaIdiomas.Tests\\EscolaIdiomas.Tests.csproj|solutionrelative:escolaidiomas.tests\\domain\\matriculaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.api\\controllers\\alunoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|solutionrelative:escolaidiomas.api\\controllers\\alunoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.application\\services\\matriculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|solutionrelative:escolaidiomas.application\\services\\matriculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\maper\\mappingprofile .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\maper\\mappingprofile .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\dtos\\turmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\dtos\\turmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18E26EF8-187E-4597-8225-3175D5EAE796}|EscolaIdiomas.Tests\\EscolaIdiomas.Tests.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.tests\\domain\\alunoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E26EF8-187E-4597-8225-3175D5EAE796}|EscolaIdiomas.Tests\\EscolaIdiomas.Tests.csproj|solutionrelative:escolaidiomas.tests\\domain\\alunoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.infrastructure\\repositories\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|solutionrelative:escolaidiomas.infrastructure\\repositories\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\dtos\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\dtos\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.application\\services\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|solutionrelative:escolaidiomas.application\\services\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.api\\controllers\\alunoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|solutionrelative:escolaidiomas.api\\controllers\\alunoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|solutionrelative:escolaidiomas.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|solutionrelative:escolaidiomas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\maper\\mappingprofile .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\maper\\mappingprofile .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\validations\\assertionconcern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\validations\\assertionconcern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\dtos\\turmalistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\dtos\\turmalistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\dtos\\turmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\dtos\\turmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\dtos\\matriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\dtos\\matriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\dtos\\alunolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\dtos\\alunolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\dtos\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\dtos\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\interfaces\\ialunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\interfaces\\ialunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.infrastructure\\data\\context\\escolaidiomascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|solutionrelative:escolaidiomas.infrastructure\\data\\context\\escolaidiomascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\entities\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\entities\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.api\\controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|solutionrelative:escolaidiomas.api\\controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.application\\interfaces\\imatriculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|solutionrelative:escolaidiomas.application\\interfaces\\imatriculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.infrastructure\\repositories\\matricularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|solutionrelative:escolaidiomas.infrastructure\\repositories\\matricularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\interfaces\\imatricularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\interfaces\\imatricularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\interfaces\\iturmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\interfaces\\iturmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.application\\interfaces\\iturmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|solutionrelative:escolaidiomas.application\\interfaces\\iturmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.infrastructure\\data\\context\\escolaidiomascontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|solutionrelative:escolaidiomas.infrastructure\\data\\context\\escolaidiomascontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.infrastructure\\migrations\\20241210011707_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|solutionrelative:escolaidiomas.infrastructure\\migrations\\20241210011707_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\entities\\turma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\entities\\turma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.domain\\entities\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F119CF-A5E7-4CCD-8D62-35C16630B0DC}|EscolaIdiomas.Domain\\EscolaIdiomas.Domain.csproj|solutionrelative:escolaidiomas.domain\\entities\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.application\\interfaces\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|solutionrelative:escolaidiomas.application\\interfaces\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.api\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4972B73-62C6-4413-B98C-539026EECD33}|EscolaIdiomas.Api\\EscolaIdiomas.Api.csproj|solutionrelative:escolaidiomas.api\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.infrastructure\\repositories\\turmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC07F1FF-83B3-4175-AE1C-10271F80C7B0}|EscolaIdiomas.Infrastructure\\EscolaIdiomas.Infrastructure.csproj|solutionrelative:escolaidiomas.infrastructure\\repositories\\turmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|c:\\users\\mathe\\source\\repos\\escolaidiomas\\escolaidiomas.application\\services\\turmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0996FFE-58F7-457B-A2B9-0B80CBE5AD2B}|EscolaIdiomas.Application\\EscolaIdiomas.Application.csproj|solutionrelative:escolaidiomas.application\\services\\turmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,133 +178,388 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DomainException.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Exceptions\\DomainException.cs",
-              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Exceptions\\DomainException.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Exceptions\\DomainException.cs",
-              "RelativeToolTip": "EscolaIdiomas.Domain\\Exceptions\\DomainException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AlunoServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Tests\\Domain\\AlunoServiceTests.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Tests\\Domain\\AlunoServiceTests.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Tests\\Domain\\AlunoServiceTests.cs",
+              "RelativeToolTip": "EscolaIdiomas.Tests\\Domain\\AlunoServiceTests.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T19:08:57.663Z",
+              "WhenOpened": "2024-12-11T14:43:34.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MatriculaServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Tests\\Domain\\MatriculaServiceTests.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Tests\\Domain\\MatriculaServiceTests.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Tests\\Domain\\MatriculaServiceTests.cs",
+              "RelativeToolTip": "EscolaIdiomas.Tests\\Domain\\MatriculaServiceTests.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADgvw8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:43:29.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TurmaDto.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\TurmaDto.cs",
-              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Dtos\\TurmaDto.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\TurmaDto.cs",
-              "RelativeToolTip": "EscolaIdiomas.Domain\\Dtos\\TurmaDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:48:26.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MappingProfile .cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Maper\\MappingProfile .cs",
-              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Maper\\MappingProfile .cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Maper\\MappingProfile .cs",
-              "RelativeToolTip": "EscolaIdiomas.Domain\\Maper\\MappingProfile .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:35:22.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "EscolaIdiomas.Api\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\DependencyInjection.cs",
-              "RelativeToolTip": "EscolaIdiomas.Api\\DependencyInjection.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAASwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:33:54.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAlunoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Interfaces\\IAlunoRepository.cs",
-              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Interfaces\\IAlunoRepository.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Interfaces\\IAlunoRepository.cs",
-              "RelativeToolTip": "EscolaIdiomas.Domain\\Interfaces\\IAlunoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:31:19.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AlunoRepository.cs",
               "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Repositories\\AlunoRepository.cs",
               "RelativeDocumentMoniker": "EscolaIdiomas.Infrastructure\\Repositories\\AlunoRepository.cs",
               "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Repositories\\AlunoRepository.cs",
               "RelativeToolTip": "EscolaIdiomas.Infrastructure\\Repositories\\AlunoRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBYAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:31:06.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IAlunoService.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Interfaces\\IAlunoService.cs",
-              "RelativeDocumentMoniker": "EscolaIdiomas.Application\\Interfaces\\IAlunoService.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Interfaces\\IAlunoService.cs",
-              "RelativeToolTip": "EscolaIdiomas.Application\\Interfaces\\IAlunoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:30:43.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AlunoService.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Services\\AlunoService.cs",
-              "RelativeDocumentMoniker": "EscolaIdiomas.Application\\Services\\AlunoService.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Services\\AlunoService.cs",
-              "RelativeToolTip": "EscolaIdiomas.Application\\Services\\AlunoService.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAqwDkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:30:28.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:52:18.268Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MatriculaService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Services\\MatriculaService.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Application\\Services\\MatriculaService.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Services\\MatriculaService.cs",
+              "RelativeToolTip": "EscolaIdiomas.Application\\Services\\MatriculaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:17:53.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssertionConcern.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Validations\\AssertionConcern.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Validations\\AssertionConcern.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Validations\\AssertionConcern.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Validations\\AssertionConcern.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:09:32.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Exceptions\\DomainException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:09:16.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile .cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Maper\\MappingProfile .cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Maper\\MappingProfile .cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Maper\\MappingProfile .cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Maper\\MappingProfile .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:09:27.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Api\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\DependencyInjection.cs",
+              "RelativeToolTip": "EscolaIdiomas.Api\\DependencyInjection.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:08:15.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\Program.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\Program.cs",
+              "RelativeToolTip": "EscolaIdiomas.Api\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:08:19.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AlunosController .cs",
               "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\Controllers\\AlunosController .cs",
               "RelativeDocumentMoniker": "EscolaIdiomas.Api\\Controllers\\AlunosController .cs",
               "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\Controllers\\AlunosController .cs",
               "RelativeToolTip": "EscolaIdiomas.Api\\Controllers\\AlunosController .cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAowCgAAAAQAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAywE8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:30:11.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T20:06:07.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "TurmaListDto.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\TurmaListDto.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Dtos\\TurmaListDto.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\TurmaListDto.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Dtos\\TurmaListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:20:04.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TurmaDto.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\TurmaDto.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Dtos\\TurmaDto.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\TurmaDto.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Dtos\\TurmaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:08:43.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MatriculaDto.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\MatriculaDto.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Dtos\\MatriculaDto.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\MatriculaDto.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Dtos\\MatriculaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:08:42.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AlunoListDto.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\AlunoListDto.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Dtos\\AlunoListDto.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\AlunoListDto.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Dtos\\AlunoListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:08:38.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AlunoDto.cs",
               "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\AlunoDto.cs",
               "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Dtos\\AlunoDto.cs",
               "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Dtos\\AlunoDto.cs",
               "RelativeToolTip": "EscolaIdiomas.Domain\\Dtos\\AlunoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:48:53.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:08:37.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAlunoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Interfaces\\IAlunoRepository.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Interfaces\\IAlunoRepository.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Interfaces\\IAlunoRepository.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Interfaces\\IAlunoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:09:19.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EscolaIdiomasContext.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Data\\Context\\EscolaIdiomasContext.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Infrastructure\\Data\\Context\\EscolaIdiomasContext.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Data\\Context\\EscolaIdiomasContext.cs",
+              "RelativeToolTip": "EscolaIdiomas.Infrastructure\\Data\\Context\\EscolaIdiomasContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:10:11.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Entities\\Aluno.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Entities\\Aluno.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Entities\\Aluno.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Entities\\Aluno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:09:08.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMatriculaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Interfaces\\IMatriculaRepository.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Interfaces\\IMatriculaRepository.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Interfaces\\IMatriculaRepository.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Interfaces\\IMatriculaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:09:21.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IMatriculaService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Interfaces\\IMatriculaService.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Application\\Interfaces\\IMatriculaService.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Interfaces\\IMatriculaService.cs",
+              "RelativeToolTip": "EscolaIdiomas.Application\\Interfaces\\IMatriculaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:08:29.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MatriculasController.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\Controllers\\MatriculasController.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Api\\Controllers\\MatriculasController.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\Controllers\\MatriculasController.cs",
+              "RelativeToolTip": "EscolaIdiomas.Api\\Controllers\\MatriculasController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAqwFoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:08:07.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MatriculaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Repositories\\MatriculaRepository.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Infrastructure\\Repositories\\MatriculaRepository.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Repositories\\MatriculaRepository.cs",
+              "RelativeToolTip": "EscolaIdiomas.Infrastructure\\Repositories\\MatriculaRepository.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwDsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:22:10.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITurmaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Interfaces\\ITurmaRepository.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Interfaces\\ITurmaRepository.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Interfaces\\ITurmaRepository.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Interfaces\\ITurmaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:25:33.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITurmaService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Interfaces\\ITurmaService.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Application\\Interfaces\\ITurmaService.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Interfaces\\ITurmaService.cs",
+              "RelativeToolTip": "EscolaIdiomas.Application\\Interfaces\\ITurmaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:22:52.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EscolaIdiomasContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Data\\Context\\EscolaIdiomasContextFactory.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Infrastructure\\Data\\Context\\EscolaIdiomasContextFactory.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Data\\Context\\EscolaIdiomasContextFactory.cs",
+              "RelativeToolTip": "EscolaIdiomas.Infrastructure\\Data\\Context\\EscolaIdiomasContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:10:18.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241210011707_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Migrations\\20241210011707_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Infrastructure\\Migrations\\20241210011707_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Migrations\\20241210011707_InitialCreate.cs",
+              "RelativeToolTip": "EscolaIdiomas.Infrastructure\\Migrations\\20241210011707_InitialCreate.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:10:21.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Turma.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Entities\\Turma.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Entities\\Turma.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Entities\\Turma.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Entities\\Turma.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:09:13.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Matricula.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Entities\\Matricula.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Domain\\Entities\\Matricula.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Domain\\Entities\\Matricula.cs",
+              "RelativeToolTip": "EscolaIdiomas.Domain\\Entities\\Matricula.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:09:11.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAlunoService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Interfaces\\IAlunoService.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Application\\Interfaces\\IAlunoService.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Interfaces\\IAlunoService.cs",
+              "RelativeToolTip": "EscolaIdiomas.Application\\Interfaces\\IAlunoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:08:28.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TurmaService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Services\\TurmaService.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Application\\Services\\TurmaService.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Application\\Services\\TurmaService.cs",
+              "RelativeToolTip": "EscolaIdiomas.Application\\Services\\TurmaService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:24:25.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TurmasController.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\Controllers\\TurmasController.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Api\\Controllers\\TurmasController.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Api\\Controllers\\TurmasController.cs",
+              "RelativeToolTip": "EscolaIdiomas.Api\\Controllers\\TurmasController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwDgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:17:47.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TurmaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Repositories\\TurmaRepository.cs",
+              "RelativeDocumentMoniker": "EscolaIdiomas.Infrastructure\\Repositories\\TurmaRepository.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\EscolaIdiomas\\EscolaIdiomas.Infrastructure\\Repositories\\TurmaRepository.cs",
+              "RelativeToolTip": "EscolaIdiomas.Infrastructure\\Repositories\\TurmaRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:25:51.926Z"
             }
           ]
         }
